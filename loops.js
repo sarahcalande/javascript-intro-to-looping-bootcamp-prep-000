@@ -24,6 +24,10 @@ return 'done'
 
 }
 
-function doWhileLoop(){
+function doWhileLoop([]){
   array.length > 0 && maybeTrue()
+}
+
+return array;
+
 }
