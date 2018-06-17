@@ -14,7 +14,8 @@ function forLoop(array){
 let countdown = 100
 function whileLoop(n){
 while (countdown > n) {
-    console.log(--countdown)
+    console.log(--countdown);
+    return 'done'
 }
 
 }
