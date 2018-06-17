@@ -25,9 +25,12 @@ return 'done'
 }
 
 function doWhileLoop(array){
-  array.length > 0 && maybeTrue()
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
 
-
-return array;
-
+  do {
+   array.pop();
+  } while (array.length > -1 && maybeTrue());
+    return array;
 }
