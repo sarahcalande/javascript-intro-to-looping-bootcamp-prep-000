@@ -24,5 +24,5 @@ return 'done'
 }
 
 function doWhileLoop(){
-  
+  array.length > 0 && maybeTrue()
 }
